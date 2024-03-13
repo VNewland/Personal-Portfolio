@@ -27,9 +27,45 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin-right: 15%;
+    flex-wrap: wrap;
 }
 
- li a {
+li {
+    padding-bottom: 2%;
+}
+
+li a {
     color: rgb(104, 247, 247);
     font-weight: 100;
  }
+
+/* ABOUT ME */
+article {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 1%;
+}
+
+p {
+    width: 90%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* PROJECTS */
+
+
+/* FOOTER */
