@@ -35,7 +35,7 @@ li {
 }
 
 li a {
-    color: rgb(104, 247, 247);
+    color: #7FFF94;
     font-weight: 100;
  }
 
@@ -66,6 +66,67 @@ p {
 }
 
 /* PROJECTS */
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80dvh;
+}
 
+.projectOne {
+    border-radius: 15%;
+    width: 70%;
+    height: 20%;
+    margin: 5%;
+    background-image: url(SEO-Website.png);
+    background-size: cover;
+    border: .5em solid #7FEAFF;
+}
+
+.projectTwo {
+    border-radius: 50%;
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    background-image: url(Miro-Website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: .5em solid #7FEAFF;
+
+}
+
+.projectThree {
+    border-radius: 50%;
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    background-image: url(stackOverflow-website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: .5em solid #7FEAFF;
+}
+
+.projectFour {
+    border-radius: 50%;
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    background-image: url(canva-website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: .5em solid #7FEAFF;
+}
+
+.projectFive {
+    border-radius: 50%;
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    background-image: url(leetCode-website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: .5em solid #7FEAFF;
+}
 
 /* FOOTER */
