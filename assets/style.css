@@ -76,59 +76,44 @@ main {
     padding-bottom: 20%;
 }
 
+main a {
+    height: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .5em solid #7FEAFF;
+}
+
+
 .projectOne {
     border-radius: 15%;
     width: 70%;
     height: 20%;
     margin: 5%;
     background-image: url(SEO-Website.png);
-    background-size: cover;
-    border: .5em solid #7FEAFF;
+}
+
+.minorProject {
+    border-radius: 50%;
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    background-position: center;
 }
 
 .projectTwo {
-    border-radius: 50%;
-    width: 30%;
-    height: 20%;
-    margin: 10%;
     background-image: url(Miro-Website.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: .5em solid #7FEAFF;
-
 }
 
 .projectThree {
-    border-radius: 50%;
-    width: 30%;
-    height: 20%;
-    margin: 10%;
     background-image: url(stackOverflow-website.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: .5em solid #7FEAFF;
 }
 
 .projectFour {
-    border-radius: 50%;
-    width: 30%;
-    height: 20%;
-    margin: 10%;
     background-image: url(canva-website.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: .5em solid #7FEAFF;
 }
 
 .projectFive {
-    border-radius: 50%;
-    width: 30%;
-    height: 20%;
-    margin: 10%;
     background-image: url(leetCode-website.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: .5em solid #7FEAFF;
 }
 
 /* FOOTER */
@@ -159,6 +144,13 @@ section, aside {
     justify-content: space-around;
 }
 
-span, .phone, span a {
+span, span a {
     color: #7FFF94;
+}
+
+@media (max-width: 580px) {
+    nav {
+        min-width: 10%;
+    }
+    
 }
