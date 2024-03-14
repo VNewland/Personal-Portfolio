@@ -59,7 +59,8 @@ h2 {
     padding-bottom: 1%;
 }
 
-p {
+article p {
+    color: bisque;
     width: 90%;
     font-weight: 400;
     font-style: normal;
@@ -72,6 +73,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     height: 80dvh;
+    padding-bottom: 20%;
 }
 
 .projectOne {
@@ -130,3 +132,33 @@ main {
 }
 
 /* FOOTER */
+
+footer {
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 10dvh;
+    margin-top: 10%;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-style: normal;
+    padding-bottom: 1%;
+}
+
+section, aside {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+span, .phone, span a {
+    color: #7FFF94;
+}
